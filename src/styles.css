@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.homepage{
+    display:flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.header{
+    flex: 0 0 6%;
+    width: 100%;
+    height: 6%;
+    background-color: black;
+}
+.content{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+
+.team-display-page{
+    flex: 0 0 60%;
+}
+
+.unit-display-page{
+    flex: 0 0 40%;
+    background-color: aqua;
+}
+
+.team-display{
+    display: flex;
+    flex-direction: column;
+    height: 100%
+}
+
+.section-name{
+    flex: 0 0 10%;
+    background-color: lightblue;
+}
+
+.team-planner{
+    flex: 0 0 50%;
+    background-color: purple;
+}
+
+.stat-display{
+    flex: 0 0 40%;
+    background-color: darkblue;
+}

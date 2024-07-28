@@ -1,0 +1,12 @@
+[
+    {
+        "id" : 1,
+        "icon" : "../photos/Invicible.png",
+        "name" : "Invicible",
+        "stats" : {
+            "health" : 1,
+            "attack" : 2,
+            "defense" : 3
+        }
+    }
+]
